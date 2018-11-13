@@ -48,21 +48,3 @@ Things to keep in mind:
   * Contains at least one labeled visualization
 * The wrangling phase is documented in a concise PDF file
 * The findings are placed in a report as a PDF as well
-
-## Important files & Installation Notes
-
-* The `data\` File Contains the downloaded data and some `pickle` files creating
-during wrangling process
-    * contains `wrangled\` sub-directory with the wrangled data (SQL and CSV)
-* `act_report.md` is a markdown file that compiles to a PDF with the report for
-the visualisation created with Tableau in this project. Link in References
-section.
-* `visualise-act.twb` is the Tableau workbook file in case you want to open it in
-the desktop version.
-* `wrangle_report.md` is also a markdown file which contains general remarks over
-the wrangling process and also compiles to the corresponding pdf file.
-* `wrangling-act.ipynb` is the jupyter notebook file which outlines each
-individual step during the wrangling process along with comments and markdown
-analysis of the assessment stages.
-    * This notebook was converted to html for quick and easy viewing within the
-    browser.
